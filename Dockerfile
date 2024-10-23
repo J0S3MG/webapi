@@ -12,8 +12,9 @@ RUN rm -rf /var/lib/apt/lists/*
 WORKDIR /src/webapi
 
 # copiando archivos 
-COPY webapi/WebAppiServer/webapiServer/webapiServer.csproj ./
-COPY webapi/WebAppiServer/webapiServer/. ./
+COPY Dockerfile ./
+COPY WebAppiServer/webapiServer/webapiServer.csproj ./
+COPY WebAppiServer/webapiServer/. ./
 
 RUN dotnet add package Microsoft.Data.SqlClient
 
