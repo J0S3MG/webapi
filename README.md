@@ -8,7 +8,7 @@ comandos docker "maquina virtual de git"
 
 che hugo dame los permisos //chmod ugo u//usuario u+rwx//permisos de escritura, lectura ... Grande Ugo
 
-htop //para que no se quede colgado git
+> htop //para que no se quede colgado git
 
 HttpClient le pasa informacion a HttpServer (son intermediarios) //hace la consulta en lenguaje universal.
 
