@@ -5,4 +5,4 @@ hola, como estas?
 
 El curso de como hacer cursos 
 
-che hugo dame los permisos 
+che hugo dame los permisos //chmod ugo
