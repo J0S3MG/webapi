@@ -5,6 +5,6 @@ hola, como estas?
 
 El curso de como hacer cursos 
 
-che hugo dame los permisos //chmod ugo u//usuario u+rwx//permisos de escritura, lectura ...
+che hugo dame los permisos //chmod ugo u//usuario u+rwx//permisos de escritura, lectura ... Grande Ugo
 
 
