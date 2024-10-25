@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm6M6eS521UaDyznmUXvPigAAAAACAAAAAAAQZgAAAAEAACAAAACOJeWJYBXnbnRcAIg008XXpuNMEhYoFWGYwyISvWcLLgAAAAAOgAAAAAIAACAAAABHzYdvZAS/qqXHojyxm+LjxDQt/Pw3aqWCVWydEOAdnyAAAADZJLhQOAYMZXVb7guu9hYODjnnMHfCU1GGQAcfzTS9a0AAAAD1Y+PuI5deyOZ/LShzV3xMysYI2HLgTnRakS13V4n7CR4U/Uo1r/hXbFQk1+mG+pfXtxTf8Xgryn2o2LCLlzSU</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ControlAccesoTUP.somee.com/www.ControlAccesoTUP.somee.com/www.ControlAccesoTUP.somee.com</_PublishTargetUrl>
+    <History>True|2024-10-23T16:28:15.6396979Z;True|2024-10-23T13:20:11.6161809-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/23/2024 12:15:12</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/23/2024 12:15:12</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 17:14:12</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>07/19/2022 12:21:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>07/19/2022 12:21:38</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>07/19/2022 12:21:48</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/23/2024 13:27:46</publishTime>
+    </File>
+    <File Include="webapiServer.deps.json">
+      <publishTime>10/23/2024 13:27:31</publishTime>
+    </File>
+    <File Include="webapiServer.dll">
+      <publishTime>10/23/2024 13:27:30</publishTime>
+    </File>
+    <File Include="webapiServer.exe">
+      <publishTime>10/23/2024 13:27:30</publishTime>
+    </File>
+    <File Include="webapiServer.pdb">
+      <publishTime>10/23/2024 13:27:30</publishTime>
+    </File>
+    <File Include="webapiServer.runtimeconfig.json">
+      <publishTime>10/23/2024 13:19:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
