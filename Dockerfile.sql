@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/mssql/server:2022-latest
 
 # variables de entorno
 ENV ACCEPT_EULA=Y
-ENV MSSQL_SA_PASSWORD=MSS-fernando-123
+ENV MSSQL_SA_PASSWORD=MSS-fernando-sql
 
 # herramientas para mss
 USER root

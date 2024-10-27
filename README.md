@@ -3,23 +3,44 @@
 
 ### Comandos docker
 
-#### creando una imagen
+#### Contenedor para slq-server
 
-Construye la imagen
+Construir la imagen
 ```bash
 docker build -f Dockerfile.sql -t sql:v0.1 .
 ```
+
+Construir y correr el contenedor
+```bash
+docker run -d --name webapi -p1433:1433 sql:v0.1
+```
+
+#### Contenedor para webapi
+
+Construir la imagen
+```bash
+docker build -f Dockerfile.webapi -t webapi:v0.1 .
+```
+
+Construir y correr el contenedor
+```bash
+docker run -d --name sql -p8080:8080 webapi:v0.1
+```
+
+#### Administración de las imágenes
 
 Ver las imagenes creadas
 ```bash
 docker images
 ```
 
-Teniendo la imagen se puede construir el contenedor de la imagen creada. De la misma imagen se pueden crear muchos contenedores. Todos los contenedores deben tener nombres diferentes.
-
+Borra imagenes
 ```bash
-docker run --name webapi -p 8080:8080 -d webapi:v0.1
+docker rmi nombreImagen:tag
 ```
+
+#### Administración de los contenedores
+
 
 Listar los contenedores que estan corriendo
 ```bash
@@ -33,10 +54,23 @@ docker ps -a
 
 Borra contenedores
 ```bash
-docker rm webapi
+docker rm nombreContenedor
 ```
 
+Correr un contenedor
+```bash
+docker start nombreContenedor
+```
 
+Parar ejecución de un contenedor
+```bash
+docker stop nombreContenedor
+```
+
+Resetear un contenedor
+```bash
+docker restart nombreContenedor
+```
 
 
 
